@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background-color:rgb(229 219 219 / 56%);
+    padding: 7px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul a
+{
+    color: rgb(139 131 131);
+    text-decoration: none;
+    margin-left: -45px;
+    font-weight: 100;
+    transition:color .5s ;
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        padding: 15px 20px;
+        position: relative;
+    
+}
+
+nav ul  a:after
+{
+    color: rgb(10, 9, 9);  
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: rgb(20, 83, 255);
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      a:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
+      @media screen and (max-height: 300px) {
+          ul {
+              margin-top: 40px;
+          }
+      }
+      
+nav li
+{
+    display: inline;
+    position: relative;
+    padding: 10px 0px 10px 28px;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 111px;
+    /* margin: 5px 0 5px 5px; */
+}
+
+.brand-logo
+{
+    font-size: 40px;
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 141px;
+}
+nav ul li a.stickon
+{
+    color: black;
+    
+}
+.portfolio
+{
+    text-align: center;
+    /* border: 5px solid blueviolet; */
+    margin-left: 180px;
+    margin-right: 120px;
+    margin-top: 80px;
+}
+.home
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 61px;
+    margin-bottom: -45px;
+}
+.home hr
+{
+    width: 60px;
+    height: 4px;
+    background-color: cyan;
+    border: none;
+    margin:20px auto ;
+}
+.wrd
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    color: #444444;
+}
+.port-content .par
+{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+.portfolio-info  .info-1 ul li
+{
+display: flex;
+flex-direction: row;
+display: inline;
+padding: 8px 16px 10px 16px;
+font-size: 13px;
+font-weight: 500;
+line-height: 1;
+text-transform: uppercase;
+color: #444444;
+margin-bottom: 5px;
+border-radius: 50px;
+
+}
+.portfolio-info
+{
+    margin-left: -8px;
+    margin-bottom: 5px;
+    margin-top: 45px;
+}
+.info-1 .ic
+{
+    /* border: 5px solid red; */
+    transition:  0.3s ;
+}
+.info-1 .ic:hover
+{
+    color: white;
+    background-color: rgb(24, 196, 196);
+}
+.information
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio-work h4
+{
+font-size: 20px;
+  font-weight: 600;
+}
+.portfolio-record img
+{
+ height: 300px;
+  width: 360px;
+  margin: 18px;
+  position: relative;
+  
+}
+.folio-work:hover
+{
+  visibility: visible;
+
+}

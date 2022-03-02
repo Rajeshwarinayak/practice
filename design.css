@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background-color:rgb(229 219 219 / 56%);
+    padding: 7px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul a
+{
+    color: rgb(139 131 131);
+    text-decoration: none;
+    margin-left: -45px;
+    font-weight: 100;
+    transition:color .5s ;
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        padding: 15px 20px;
+        position: relative;
+    
+}
+
+nav ul  a:after
+{
+    color: rgb(10, 9, 9);  
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: rgb(20, 83, 255);
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      a:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
+      @media screen and (max-height: 300px) {
+          ul {
+              margin-top: 40px;
+          }
+      }
+      
+nav li
+{
+    display: inline;
+    position: relative;
+    padding: 10px 0px 10px 28px;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 111px;
+    /* margin: 5px 0 5px 5px; */
+}
+
+.brand-logo
+{
+    font-size: 40px;
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 141px;
+}
+nav ul li a.stickon
+{
+    color: black;
+    
+}
+
+.bgimg
+{
+    width: 100%;
+    height: 100vh;
+    background: url("https://bootstrapmade.com/demo/templates/Kelly/assets/img/hero-bg.jpg") top right;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+.head
+{
+    font-family:"Raleway", sans-serif;
+    padding-top:5px;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 56px;
+    color:#222222;
+    text-align:center;
+  
+}
+.para
+{
+    font-size: 23px;
+    font-family: "Raleway", sans-serif;
+    margin-top:-12px; 
+    line-height: 60px;
+    color: #00000082;
+}
+.btn
+{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 5px;
+    color: #fff;
+    align-items: center;
+    background: #34b7a7;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background: #5fd9ca;
+}
+
